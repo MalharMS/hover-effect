@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #afaeae;
+}
+
+.container{
+    display: inline;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.btn{
+    display: inline;
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    width: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn1{
+    background-image: linear-gradient(to left,#7ed6df,#22a6b3,#686de0 ) ;
+}
+
+.btn2{
+    background-image: linear-gradient(to left,#cd84f1,#ffcccc,#c56cf0 ) ;
+}
+
+.btn3{
+    background-image: linear-gradient(to left,#2bcbba,#4b7bec,#0fb9b1 ) ;
+}
+
+.btn4{
+    background-image: linear-gradient(to left,#6D214F,#eb3b5a,#b71540 ) ;
+}
+
+.btn1:hover{
+background-image: linear-gradient(to right,#7ed6df,#22a6b3,#686de0); 
+text-transform: capitalize;
+}
+
+.btn2:hover{
+ background-image: linear-gradient(to right,#cd84f1,#ffcccc,#c56cf0 ); 
+}
+
+.btn3:hover{
+background-image: linear-gradient(to right,#2bcbba,#4b7bec,#0fb9b1); 
+ }
+
+.btn4:hover{
+background-image: linear-gradient(to right,#6D214F,#eb3b5a,#b71540); 
+}
